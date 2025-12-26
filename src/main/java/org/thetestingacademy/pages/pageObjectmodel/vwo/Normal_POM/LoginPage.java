@@ -1,8 +1,7 @@
-package org.thetestingacademy.pages.pageObjectmodel.vwo;
+package org.thetestingacademy.pages.pageObjectmodel.vwo.Normal_POM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.thetestingacademy.utils.PropertiesReader;
 import org.thetestingacademy.utils.waithelper;
 
 public class LoginPage

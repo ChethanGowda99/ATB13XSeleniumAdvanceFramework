@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.thetestingacademy.pages.pageObjectmodel.vwo.FreeTrailPage;
+import org.thetestingacademy.pages.pageObjectmodel.vwo.Normal_POM.FreeTrailPage;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

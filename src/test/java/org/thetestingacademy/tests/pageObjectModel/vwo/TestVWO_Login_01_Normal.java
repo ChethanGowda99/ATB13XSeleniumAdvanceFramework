@@ -6,9 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.thetestingacademy.pages.pageObjectmodel.vwo.DashboardPage;
-import org.thetestingacademy.pages.pageObjectmodel.vwo.LoginPage;
-import org.thetestingacademy.utils.PropertiesReader;
+import org.thetestingacademy.pages.pageObjectmodel.vwo.Normal_POM.DashboardPage;
+import org.thetestingacademy.pages.pageObjectmodel.vwo.Normal_POM.LoginPage;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
