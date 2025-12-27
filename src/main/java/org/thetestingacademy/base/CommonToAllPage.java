@@ -2,7 +2,9 @@ package org.thetestingacademy.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.thetestingacademy.utils.PropertiesReader;
+import org.thetestingacademy.utils.waithelper;
 
 import static org.thetestingacademy.driver.Drivermanager.getDriver;
 
@@ -40,7 +42,8 @@ public class CommonToAllPage
         return getDriver().findElement(by).getText();
     }
 
-    public String getText(WebElement by){
+    public String getText(WebElement by)
+    {
         return by.getText();
     }
 
